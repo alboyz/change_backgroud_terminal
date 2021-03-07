@@ -1,0 +1,24 @@
+1. Copy script from the following Github Gist link.
+https://gist.github.com/Himanshu-Mish...​
+
+
+2. Create file in /usr/local/bin
+[~] sudo vim /usr/local/bin/theme
+
+
+
+3. Perform a search & replace to the file.
+
+
+%s/org.pantheon.terminal.settings/io.elementary.terminal.settings/g
+
+Basically, changing "org.pantheon.terminal.settings" with "io.elementary.terminal.settings"
+
+
+4. Add execute permissions to the file.
+[~] sudo chmod +x /usr/local/bin/theme
+
+
+5. Run the theme command to run the script and select a pre-made theme. :)
+
+=-=
